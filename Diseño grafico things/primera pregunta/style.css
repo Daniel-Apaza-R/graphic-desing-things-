@@ -1,0 +1,58 @@
+    header {
+    background-color: black;
+    padding: 1rem 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+
+nav a:hover {
+    color: #ffdd57;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+table.table{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width:250px;
+}
+th{
+    background-color: darkcyan;
+    height: 176px;
+    color: aliceblue;
+}
+
+.hero{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -12px;
+    padding: 1rem 2rem;
+    
+    }
+
