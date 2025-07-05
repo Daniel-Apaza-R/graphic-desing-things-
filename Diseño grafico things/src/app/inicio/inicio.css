@@ -1,0 +1,12 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Texto{
+    display: flex;
+    flex-direction: column;
+    margin-left:20px ;
+}
