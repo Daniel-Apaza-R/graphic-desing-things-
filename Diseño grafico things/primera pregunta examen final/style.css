@@ -1,0 +1,71 @@
+header {
+    background-color: #090037;
+    padding: 1rem 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    background-color: #090037;
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+h1{
+    color: aqua;
+    height: 60px;
+    width: 300px;
+    font-weight: 500px;
+    font-size: 50px;
+}
+h4{
+    color: aliceblue;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.hola{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+}
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px aqua solid;
+    border-radius: 5px;
+    width: 100px;
+}
+.megalogo{
+    clip-path: polygon(50% 50%, 100% 100%, 50% 100%, 0% 50%);
+}
