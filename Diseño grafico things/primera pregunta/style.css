@@ -1,10 +1,23 @@
-    header {
-    background-color: black;
+header {
+    background-color: #090037;
     padding: 1rem 2rem;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+body{
+    background-color: #090037;
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+h2{
+    color: aliceblue;
+}
+h4{
+    color: aliceblue;
 }
 nav ul {
     list-style: none;
@@ -12,7 +25,6 @@ nav ul {
     gap: 1rem;
     margin: 0;
     padding: 0;
-    flex-direction: row;
 }
 
 nav a {
@@ -22,37 +34,20 @@ nav a {
     transition: color 0.3s ease;
 }
 
-
 nav a:hover {
     color: #ffdd57;
 }
-section{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-table.table{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    width:250px;
-}
-th{
-    background-color: darkcyan;
-    height: 176px;
-    color: aliceblue;
-}
-
-.hero{
-    background-color: black;
+.boton{
     display: flex;
     align-items: center;
+    justify-content: center;
+    border: solid aquamarine 1px;
+    border-radius: 5px;
+    width:100px;
+}
+.producto{
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: -12px;
-    padding: 1rem 2rem;
-    
-    }
-
+    align-items: center;
+    justify-content: center;
+}
