@@ -1,0 +1,101 @@
+header {
+    background-color: #eb1414;
+    padding: 1rem 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    background-image: url(central.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+.titulo{
+    width: 110px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1%;
+    color: white;
+}
+
+.logo2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+background-color: #1d1c6d;
+}
+
+.animation{
+    animation-duration: 10s ;
+    animation-name: slide-in;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
+.postulaciones{
+    border: solid 1px color #000000;
+    background-color: #ff0000b1;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 15%;
+    position: fixed;
+    right: 0;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+    background-color: #1d1c6d;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}

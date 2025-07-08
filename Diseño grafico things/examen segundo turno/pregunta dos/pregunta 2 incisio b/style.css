@@ -1,0 +1,35 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+.blue{
+    background-color: lightskyblue;
+    height: 50px;
+    width: 50px;
+}
+
+.white{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+}
+.black{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
+.brown{
+    background-color: brown;
+    height: 50px;
+    width: 50px;    
+}
+.gray{
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+}
+.pink{
+    background-color: palevioletred;
+    height: 50px;
+    width: 50px;
+}
